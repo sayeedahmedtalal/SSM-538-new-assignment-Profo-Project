@@ -1,0 +1,111 @@
+* {
+    
+    margin: 0px;
+    box-sizing: border-box; }
+
+
+body { }
+
+header {
+    background-color: #fff;}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;}
+
+.logo {
+    width: 20%;}
+
+.logo a { }
+.logo a img { }
+
+nav {
+    width: 80%;}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;}
+
+nav ul li {
+    list-style: none;}
+
+nav ul li a {
+    color: #232323;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 16px;}
+
+
+
+.body-1{
+    background-color:yellow;
+    height: 88vh;
+    background-image: url(../images/portfolio-item57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body-2{
+    background-color:yellow;
+    height: 88vh;
+    background-image: url(../images/portfolio-item58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body-3{
+    background-color:yellow;
+    height: 88vh;
+    background-image: url(../images/portfolio-item59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body-4{
+    background-color:yellow;
+    height: 88vh;
+    background-image: url(../images/portfolio-item60.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.body-5{
+    background-color:yellow;
+    height: 88vh;
+    background-image: url(../images/portfolio-item61.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section .container{
+    height: 88vh;
+    flex-direction: column;
+    padding-bottom: 100px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+section h2{
+    background: #fff;
+    padding: 7px;
+    font-weight: 500;
+    color: #222;
+    padding-bottom: 10px;
+}
+
+section a{
+    
+font-size: 16px;
+padding: 10px;
+text-decoration: none;
+color: #fff;
+background: black;
+margin-top: 10px;
+
+}
+
